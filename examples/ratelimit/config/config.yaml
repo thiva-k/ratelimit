@@ -4,7 +4,7 @@ descriptors:
   - key: database
     value: users
     rate_limit:
-      unit: second
+      unit: minute
       requests_per_unit: 500
 
   - key: database
